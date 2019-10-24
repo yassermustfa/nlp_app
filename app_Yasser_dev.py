@@ -1,6 +1,4 @@
-import pandas as pd
-import pandas_profiling as pp
-import matplotlib.pyplot as plt
+
 #import newspaper
 #from newspaper import Article
 #import googlesearch
@@ -14,25 +12,9 @@ import matplotlib.pyplot as plt
 #from fastai.core import *
 import streamlit as st
 
-import plotly.graph_objects as go
-import plotly.express as px
 
-fig1 = go.Figure(data=go.Bar(y=[2, 3, 1]))
-labels = ['Oxygen','Hydrogen','Carbon_Dioxide','Nitrogen']
-values = [4500, 2500, 1053, 500]
+st.title('hiiiiiiiiiiii')
 
-fig2 = go.Figure(data=[go.Pie(labels=labels, values=values)])
-dataset = pd.DataFrame({'x':[0, 1, 2, 3, 4], 'y':[0, 1, 4, 9, 16]})
-fig3 = px.scatter(x='x', y='y', data_frame = dataset )
-
-iris = px.data.iris() # iris is a pandas DataFrame
-fig4 = px.scatter(iris, x="sepal_width", y="sepal_length", color="species",
-                 size='petal_length', hover_data=['petal_width'])
-#fig.show()
-st.plotly_chart(fig1)
-st.plotly_chart(fig2)
-st.plotly_chart(fig3)
-st.plotly_chart(fig4)
 #
 #path = r'C:\Users\yasse\OneDrive\Desktop\fakeNews\IF Chris\df_text_cat.csv'
 #df1 = pd.read_csv(path)
