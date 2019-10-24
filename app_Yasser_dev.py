@@ -14,7 +14,7 @@ import streamlit as st
 
 
 st.title('hiiiiiiiiiiii')
-
+st.sidebar.title('Intelligence Fusion App')
 #
 #path = r'C:\Users\yasse\OneDrive\Desktop\fakeNews\IF Chris\df_text_cat.csv'
 #df1 = pd.read_csv(path)
