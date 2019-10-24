@@ -1,2 +1,2 @@
 # nlp_app
-nlp news classification
+nlp news classification text
