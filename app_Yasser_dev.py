@@ -10,11 +10,11 @@
 #from fastai import *
 #from fastai.text import *
 #from fastai.core import *
-import streamlit as st
+#import streamlit as st
 
-
-st.title('hiiiiiiiiiiii')
-st.sidebar.title('Intelligence Fusion App')
+print('Hello Yasser')
+#st.title('hiiiiiiiiiiii')
+#st.sidebar.title('Intelligence Fusion App')
 #
 #path = r'C:\Users\yasse\OneDrive\Desktop\fakeNews\IF Chris\df_text_cat.csv'
 #df1 = pd.read_csv(path)
