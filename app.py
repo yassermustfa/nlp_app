@@ -10,14 +10,11 @@
 #from fastai import *
 #from fastai.text import *
 #from fastai.core import *
-#import streamlit as st
+import streamlit as st
 
 print('Hello Yasser')
 #st.title('hiiiiiiiiiiii')
 #st.sidebar.title('Intelligence Fusion App')
-import streamlit as st
-
-
 st.title('hiiiiiiiiiiii')
 st.sidebar.title('Intelligence Fusion App')
 #
